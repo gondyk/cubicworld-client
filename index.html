@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CubicWorld Game</title>
+	<script type="text/javascript" src="js/lib/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/lib/three.js"></script>
+	<script type="text/javascript" src="js/lib/three/SkyShader.js"></script>
+	<script type="text/javascript" src="js/lib/three/loaders/OBJLoader.js"></script>
+	<script type="text/javascript" src="js/lib/three/loaders/MTLLoader.js"></script>
+	<script type="text/javascript" src="js/game/Assets.js"></script>
+	<script type="text/javascript" src="js/game/MathUtils.js"></script>
+	<script type="text/javascript" src="js/game/3DUtils.js"></script>
+	<script type="text/javascript" src="js/game/Block.js"></script>
+	<script type="text/javascript" src="js/game/TestMesh.js"></script>
+	<script type="text/javascript" src="js/game/Foundation.js"></script>
+	<script type="text/javascript" src="js/game/PlayerEntity.js"></script>
+	<script type="text/javascript" src="js/game/Controls.js"></script>
+	<script type="text/javascript" src="js/game/Client.js"></script>
+	<script type="text/javascript" src="js/game/IOUtils.js"></script>
+	<script type="text/javascript" src="js/game/MPPlayer.js"></script>
+	<script type="text/javascript" src="js/lib/three/Detector.js"></script>
+	<script type="text/javascript" src="js/Main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div id="login">
+		<p id="title">CubicWorld Game</p>
+		<p id="copyright">by GonDyk @ 2018</p>
+		Enter Your Nickname:
+		<br>
+		<input type="text" id="username-input">
+	</div>
+	<div id="game">
+		<p id="debug"></p>
+	</div>
+	<div id="chat">
+		<div id="chat-history">
+		</div>
+		<input type="text" id="chat-input">
+	</div>
+</body>
+</html>
